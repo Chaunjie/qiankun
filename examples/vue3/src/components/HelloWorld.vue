@@ -26,7 +26,7 @@ export default {
     const changeGlobalState = () => {
       if (ctx.$setGlobalState) {
         console.log('此处可设置全局state');
-        // ctx.$setGlobalState({name: 'chaunjie'})
+        // ctx.$setGlobalState({name: 'chaunjie'});
       }
     };
 
